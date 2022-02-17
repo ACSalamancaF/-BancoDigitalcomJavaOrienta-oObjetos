@@ -2,6 +2,7 @@ package projetoDIOBanco.entities;
 
 import java.util.List;
 
+
 public class Banco {
 
 	private String nome;

@@ -17,10 +17,21 @@ public class main {
 		Conta poupanca = new ContaPoupanca(venilton);
 
 		cc.depositar(100);
-		cc.transferir(100, poupanca);
+		cc.transferir(50, poupanca);
 
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
+
+		
+		cc.sacar(48);
+
+		System.out.println();
+
+		poupanca.imprimirExtrato();
+
+		System.out.println();
+		cc.imprimirExtrato();
+
 	}
 
 }
